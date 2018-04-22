@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.a730n.fairguidingsystem.MapActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+         !!!!!!!!!!!!!!2x 178  for the Width, 2x 194 for the height!!!!!!!!!!!!!!!!!!!!!-->
+    <FrameLayout
+        android:layout_width="356dp"
+        android:layout_height="388dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="#323232"
+        android:fitsSystemWindows="true">
+
+        <Button
+            android:id="@+id/beacon0"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="#00ff00"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/beacon1"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="#00ff00"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/beacon2"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="#00ff00"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="360dp"
+            />
+        <Button
+            android:id="@+id/beacon3"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="#00ff00"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/device"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="#0000ff"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"/>
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#ebebeb"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
