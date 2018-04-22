@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
 
+    //NEW
     BluetoothAdapter mBluetoothAdapter;
     // Button btnEnableDisable_Discoverable;
     Button btnTxOK;
